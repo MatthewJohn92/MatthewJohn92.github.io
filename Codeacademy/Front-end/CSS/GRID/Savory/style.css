@@ -10,6 +10,11 @@ main {
   grid-template-rows: repeat(3, 450px);
   gap: 20px;
   margin-top: 44px;
+  justify-items: center;
+  justify-content: center;
+  align-items: stretch;
+  height: 1600px;
+  align-content: center;
 }
 
 h2 {
@@ -29,6 +34,7 @@ img {
 
 .recipe {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+  width: 200px;
 }
 
 .time {
