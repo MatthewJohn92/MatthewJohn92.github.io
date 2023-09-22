@@ -20,11 +20,7 @@ As I progress through my lessons, I'll be pushing projects to this repository.
 
 ## What I've Learned (Ongoing)
 
-With every lesson and project, I'm gaining new insights and skills. Here's a summary of my learning journey so far:
-
-- **HTML**: Grasping the structure of web pages.
-- **CSS**: Delving into the design and aesthetics of web development.
-- **JavaScript**: Just scratched the surface and excited to dive deeper.
+With every lesson and project, I'm gaining new insights and skills. 
 
 (Updates will be made as I progress through my courses.)
 
