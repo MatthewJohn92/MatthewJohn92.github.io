@@ -1,20 +1,28 @@
 /* Universal Styles */
 
-
+html {
+  font-size: 16px;
+}
 
 body {
   background-color: white;
 }
 
 .image-container {
-  
+   overflow: hidden;
 }
 
 .image-container img {
-  
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Banner Section */
+p {
+  min-width: 200px;
+    min-height: 200px;
+}
 
 #banner {
   
@@ -26,6 +34,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 46rem;
+   background-size: cover;
 }
 
 #banner h1 {
@@ -33,7 +43,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   color: white;
-  font-size: 1.5em;
+  font-size: 3.75rem;
 }
 
 /* Blog Post */
@@ -44,6 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 86%;
 }
 
 #blog .post {
@@ -59,17 +70,20 @@ body {
   text-align: center;
   line-height: 1.8;
   color: #444444;
+width: 52%;
+margin-top: 12.5%;
+margin-bottom: 7.5%;
 }
 
 .post h2 {
-    font-size: 1.75em;
+    font-size: 1.875rem;
   
 }
 
 .post h3 {
   
   color: #999999;
-    font-size: 1.25em;
+    font-size: 1.125rem;
 }
 
 .post .opening-line {
@@ -80,18 +94,18 @@ body {
 }
 
 .post .image-container {
-  
+  width: 100%;
 }
 
 /* Blog Images */
 
 .images {
-  
+  margin-bottom: 20%;
 }
 
 .images .image-container {
   display: inline-block;
-  
+  width: 50%;
 }
 
 /* Footer */
@@ -100,7 +114,7 @@ footer {
   padding: 4rem 0;
   border-top: 1px solid #999999;
   font-family: 'Roboto', sans-serif;
-    font-size: 0.75em;
+    font-size: 1.125rem;
   
   color: #999999;
   text-align: center;
