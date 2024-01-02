@@ -1,0 +1,114 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #7e1137;
+    color: white;
+    padding: 15px 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+section h2 {
+    color: #7e1137;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Form Styling */
+section#join form {
+    margin-top: 20px;
+}
+
+section#join input, section#join button {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+section#join button {
+    background-color: #7e1137;
+    color: white;
+    border: none;
+}
+
+section#join button:hover {
+    background-color: #5e0c2b;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #7e1137;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    nav ul {
+        padding-top: 20px;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    section h2 {
+        font-size: 1.4em;
+    }
+
+    section#join input, section#join button {
+        width: 95%;
+    }
+}
