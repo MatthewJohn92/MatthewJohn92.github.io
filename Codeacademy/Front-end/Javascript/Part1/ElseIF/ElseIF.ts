@@ -1,4 +1,4 @@
-let sale = true;
+/*let sale = true;
 
 sale = false;
 
@@ -83,3 +83,24 @@ if (season === 'spring') {
 } else {
   console.log('Invalid season.');
 }
+
+
+//switch case
+let athleteFinalPosition = 'first place';
+
+switch (athleteFinalPosition) {
+  // Add cases for different positions
+  case 'first place':
+    console.log('You get the gold medal!');
+    break;
+  case 'second place':
+    console.log('You get the silver medal!');
+    break;
+  case 'third place':
+    console.log('You get the bronze medal!');
+    break;
+  default:
+    console.log('No medal awarded.');
+    break; // Add the break keyword here
+}
+*/
