@@ -35,3 +35,13 @@ Assign an anonymous function that takes in a parameter of day to plantNeedsWater
   plantNeedsWater('Tuesday');
   
   console.log(plantNeedsWater('Tuesday'));
+
+  //Arrow Functions
+  const plantNeedsWater = (day) => {
+    if (day === 'Wednesday') {
+      return true;
+    } else {
+      return false;
+    }
+  };
+  
