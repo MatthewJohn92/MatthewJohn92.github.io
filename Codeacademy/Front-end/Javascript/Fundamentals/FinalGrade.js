@@ -1,4 +1,4 @@
-// Write your function here:
+no// Write your function here:
 
 function finalGrade(grade1, grade2, grade3) {
   // Check if any grade is invalid
